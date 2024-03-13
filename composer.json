@@ -1,0 +1,17 @@
+{
+    "name": "vendor/bar_code",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\BarCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alirio",
+            "email": "a1105fut@gmail.com"
+        }
+    ],
+    "require": {
+        "picqer/php-barcode-generator": "^2.4"
+    }
+}
